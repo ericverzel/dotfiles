@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -48,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = ericziouane@gmail.com
+	name = cd ~/code/$ericverzel/dotfiles && zsh git_setup.sh
